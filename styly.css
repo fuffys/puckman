@@ -1,7 +1,93 @@
+
+body {
+    background-color: darkred;
+}
+.help {
+    border: solid 5px black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    
+}
+.boku{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 10px;     
+}
+
+.puckman {
+    margin-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+    border: solid 5px black;
+    margin-left: 327px;
+    margin-right: 385px;
+    background-color: green;
+    
+}
+
+.cigi {
+
+    font-family: sans-serif;
+    margin-top: 512px;
+
+
+
+
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     width: 560px;
-    height: 560px;
+    height: 540px;
     border: solid black;
+}
+  
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: green;   
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: black;
+}
+
+.power-pellet {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.jew {
+    background-color: red;
+}
+
+.ondra {
+    background-color: pink;
+}
+
+.honza {
+    background-color: cyan;
+}
+
+.peter {
+    background-color: orange;     
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.scared-ghost {
+    background-color: aquamarine;
 }
